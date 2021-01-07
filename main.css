@@ -1,0 +1,47 @@
+/* unvisited link */
+a:link {
+  font-family: Helvetica, Arial, sans-serif;
+  color: seashell;
+}
+
+/* visited link */
+a:visited {
+  font-family: Helvetica, Arial, sans-serif;
+  color: seashell;
+}
+
+/* mouse over link */
+a:hover {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(216, 215, 214);
+}
+
+/* selected link */
+a:active {
+  font-family: Helvetica, Arial, sans-serif;
+  color: seashell;
+}
+
+/* unvisited link */
+.alt:link {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(38, 37, 41);
+}
+
+/* visited link */
+.alt:visited {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(38, 37, 41);
+}
+
+/* mouse over link */
+.alt:hover {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(62, 61, 65);
+}
+
+/* selected link */
+.alt:active {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(38, 37, 41);
+}
