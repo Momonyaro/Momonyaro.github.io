@@ -143,9 +143,9 @@ body
 .post-block
 {
     width: 90%;
-    min-height: 200px;
+    min-height: 150px;
 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     border: 1px solid rgb(43, 43, 43);
 
@@ -181,9 +181,11 @@ body
 .post-content
 {
     padding: 15px;
+    padding-right: 25px;
     margin-left: 10px;
     text-align: left;
 
     font-family: 'Nova Square', cursive;
+    font-size: large;
     font-weight: normal;
 }
