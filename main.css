@@ -1,47 +1,189 @@
-/* unvisited link */
-a:link {
-  font-family: Helvetica, Arial, sans-serif;
-  color: seashell;
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Libre+Barcode+39+Text&family=Nova+Square&display=swap');
+
+body
+{
+    background-color: rgb(26, 26, 26);
+    margin: 0;
 }
 
-/* visited link */
-a:visited {
-  font-family: Helvetica, Arial, sans-serif;
-  color: seashell;
+#page-container
+{
+    width: 50%;
+    background-color: rgb(14, 14, 14);
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-/* mouse over link */
-a:hover {
-  font-family: Helvetica, Arial, sans-serif;
-  color: rgb(216, 215, 214);
+#header-container
+{
+    position: relative;
+    height: 300px;
+    background-image: url(./res/20190525_233204.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-/* selected link */
-a:active {
-  font-family: Helvetica, Arial, sans-serif;
-  color: seashell;
+#header-profile
+{
+    position: absolute;
+    bottom: 15px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 60%;
+
+    display: flex;
 }
 
-/* unvisited link */
-.alt:link {
-  font-family: Helvetica, Arial, sans-serif;
-  color: rgb(38, 37, 41);
+#header-profile-img
+{
+    position: relative;
+    height: 132px;
+    top: 15px;
+
+    padding: 4px;
+
+    border: 4px solid salmon;
+
+    background-color: black;
 }
 
-/* visited link */
-.alt:visited {
-  font-family: Helvetica, Arial, sans-serif;
-  color: rgb(38, 37, 41);
+#header-title
+{
+    margin-left: 15px;
 }
 
-/* mouse over link */
-.alt:hover {
-  font-family: Helvetica, Arial, sans-serif;
-  color: rgb(62, 61, 65);
+#header-title-name
+{
+    position: relative;
+    width: min-content * 2;
+    top: 60px;
+
+    padding: 4px;
+    
+    border: 4px solid salmon;
+
+    background-color: black;
+
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-weight: normal;
+    font-size: 35pt;
+    color: white;
+    text-shadow: 2px 2px black;
+
+    text-align: left;
 }
 
-/* selected link */
-.alt:active {
-  font-family: Helvetica, Arial, sans-serif;
-  color: rgb(38, 37, 41);
+#navbar-container
+{
+    width: 96%;
+    height: 50px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: salmon;
+}
+
+#navbar-socials
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(26, 26, 26);
+}
+
+.socials
+{
+    position: relative;
+    top: 8px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    height: 35px;
+}
+
+#blog-container
+{
+    min-height: 400px;
+    padding-bottom: 50px;
+
+    background-color: whitesmoke;
+}
+
+#blog-title
+{
+    position: relative;
+    width: 92%;
+    text-align: left;
+
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 4%;
+
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+    font-family: 'Kumar One', cursive;
+    font-weight: bold;
+
+    text-shadow: 3px 3px rgb(23, 218, 127);
+}
+
+#blog-root
+{
+    width: 100%;
+    height: max-content;
+}
+
+.post-block
+{
+    width: 90%;
+    min-height: 200px;
+
+    margin-bottom: 50px;
+
+    border: 1px solid rgb(43, 43, 43);
+
+    background-color: rgb(238, 238, 238);
+    box-shadow: 8px 8px rgb(43, 43, 43);
+}
+
+.post-header
+{
+
+
+    height: 70px;
+
+    background-color: rgb(43, 43, 43);
+}
+
+.post-title
+{
+    position: relative;
+    top: 12px;
+
+    text-align: left;
+
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+
+    font-family: 'Kumar One', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.post-content
+{
+    padding: 15px;
+    margin-left: 10px;
+    text-align: left;
+
+    font-family: 'Nova Square', cursive;
+    font-weight: normal;
 }

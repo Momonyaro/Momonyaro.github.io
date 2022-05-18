@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sebastian Alkstrand - Game Programmer</title>
-        <link rel="stylesheet" href="main.css">
+        <title>Sebastian Alkstrand - Blog</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./main.css">
     </head>
-    <body style="padding: 0%; margin: 0%; display: flex; font-family: Helvetica, Arial, sans-serif; background-color: rgb(226, 226, 226);">
-        <!-- This first div is the left navigation area. -->
-        <div style="width: 19vw; height: 100vh; background-color: rgb(38, 37, 41); color: seashell; position: fixed; border-right: 10px solid rgb(57, 56, 61);">
-            <div style="position: relative; top: 150px;">
-                <center><img src="pic.png" width="50%" style=" border-radius: 50%; border: 5px solid rgb(77, 62, 138);"></center>
-                <center><h1>Sebastian Alkstrand</h1></center>
-                <center><h3 style="color: rgb(109, 109, 109); line-height: 0.6;">Game Programmer</h3></center>
-                <center><h3 style="color: rgb(109, 109, 109); line-height: 0.6;">Student</h3></center>
+    <body>
+        <center>
+        <div id="page-container">
+            <div id="header-container">
+                <div id="header-profile">
+                    <div>
+                        <img id="header-profile-img" src="res/IMG_20220107_141719_2 (1).jpg">
+                    </div>
+                    <div id="header-title">
+                        <h1 id="header-title-name">Sebastian Alkstrand</h1>
+                    </div>
+                </div>
             </div>
+            <div id="navbar-container">
+                <div id="navbar-content">
 
-            <ul style="position: relative; top:25%; left: 10%; font-size: 28px; list-style: none; line-height: 1.6;">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-
-        <!-- This second div is the content area. -->
-        <div style="background-color: rgb(236, 236, 236); color: rgb(38, 37, 41); display: flex; flex-direction: column; width: 100%; padding-left: 19vw;">
-            <div style="padding: 5%; padding-left: 10%;">
-                <h1>Hello!</h1>
-                <h2>I'm a passionate game programmer based in Sweden. Welcome to my little site!</h2>
-                <br>
-                <p>
-                    I am currently in my early 20s studying at the University of Skövde for a bachelor's degree in Game Programming. I have also been constantly working on my own games on the side for about 4 years where I have familiarized myself with C++, 
-                    C# (using MonoScript) and JAVA. 
-                    <br><br>
-                    I am someone that's extremely driven when it comes to programming and games and will most times take the charge and work to create code with a strong foundation that's easy to build upon.
-                    <br><br>
-                    When it comes to me as a person I would consider myself innovative and service-focused with a tendency to prioritize the team rather than myself. Big fan of 90's alt. rock and use a good helping of coffee in order to get 
-                    through the day but I would say that I am extremely easy to work with and if a hand is needed, don't be afraid to ask.
-                </p>
+                </div>
+                <div id="navbar-socials">
+                    <a href="https://www.youtube.com/channel/UC9md6YSjmc3RHp33UQMX0dA">
+                        <img class="socials" src="https://cdn-icons-png.flaticon.com/512/174/174883.png">
+                    </a>
+                    <a href="https://twitter.com/Momonyaro_">
+                        <img class="socials" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png">
+                    </a>
+                </div>
+            </div>
+            <div id="blog-container">
+                <h1 id="blog-title">> Latest Posts</h1>
+                <div id="blog-root">
+                    <div class="post-block">
+                        <div class="post-header">
+                            <h1 class="post-title">Post Title</h1>
+                        </div>
+                        <p class="post-content">
+                            Cringe, pog, what's the difference?
+                        </p>
+                    </div>
+                </div>
+                <div id="blog-root">
+                    <div class="post-block">
+                        <div class="post-header">
+                            <h1 class="post-title">Post Title</h1>
+                        </div>
+                        <p class="post-content">
+                            Cringe, pog, what's the difference?
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+        </center>
     </body>
 </html>
