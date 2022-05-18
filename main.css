@@ -89,6 +89,32 @@ body
     background-color: salmon;
 }
 
+#navbar-content
+{
+    display: flex;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+.navbar-item
+{
+    position: relative;
+    bottom: 5px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    font-family: 'Kumar One', cursive;
+    font-weight: normal;
+    color: white;
+    
+}
+
 #navbar-socials
 {
     padding-right: 10px;
@@ -102,8 +128,8 @@ body
     position: relative;
     top: 8px;
 
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 
     height: 35px;
 }
@@ -188,4 +214,9 @@ body
     font-family: 'Nova Square', cursive;
     font-size: large;
     font-weight: normal;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
